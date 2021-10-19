@@ -1,5 +1,4 @@
-import prismaClient from "../prisma";
-import { io } from "../app";
+import prismaClient from "../../prisma";
 
 class ProfileUserService {
 	async execute(user_id: string) {

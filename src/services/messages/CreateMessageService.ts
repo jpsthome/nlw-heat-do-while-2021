@@ -1,5 +1,5 @@
-import prismaClient from "../prisma";
-import { io } from "../app";
+import prismaClient from "../../prisma";
+import { io } from "../../app";
 
 class CreateMessageService {
 	async execute(text: string, user_id: string) {
